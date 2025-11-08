@@ -21,9 +21,10 @@ app.use((err, req, res, next) => {
   }
 });
 
-// Konfiguracja CORS dla produkcji i developmentu
+// To change the CORS configuration to allow only a specific origin change the origin value below
+// example: origin: "http:localhost:3000"
 const corsOptions = {
-  origin: true, // Pozwala na requesty z każdego origin
+  origin: "https://vintiada.netlify.app", 
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin'],
   credentials: true,
@@ -119,24 +120,6 @@ app.get("/api/form", async (req, res) => {
 
 
 
-// Serwowanie frontendu z folderu dist
-app.use(express.static(path.join(__dirname, 'dist')));
-
-
-
-/*
-app.get(/./, (req, res) => {
-  const indexPath = path.join(__dirname, 'dist', 'index.html');
-  res.sendFile(indexPath, (err) => {
-    if (err) {
-      // jeśli nie masz buildu w dist (tryb dev), spróbuj pliku w public lub zwróć 404
-      const fallback = path.join(__dirname, 'public', 'index.html');
-      res.sendFile(fallback, (err2) => {
-        if (err2) res.status(404).end();
-      });
-    }
-  });
-}); */
 
 
 
