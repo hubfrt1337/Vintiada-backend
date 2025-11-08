@@ -1,0 +1,1674 @@
+[
+    {
+        "id": 1,
+        "name": "La Vie Est Belle",
+        "image": "/lancome.jpg",
+        "brand": "Lancôme",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "blackcurrant",
+                "pear"
+            ],
+            "heart": [
+                "iris",
+                "jasmine",
+                "orange blossom"
+            ],
+            "base": [
+                "vanilla",
+                "praline",
+                "tonka bean",
+                "patchouli"
+            ]
+        },
+        "category": "floral",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 5,
+        "price": 10000
+    },
+    {
+        "id": 2,
+        "name": "Bleu de Chanel",
+        "image": "/bleu.webp",
+        "brand": "Chanel",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "lemon",
+                "mint",
+                "pink pepper"
+            ],
+            "heart": [
+                "ginger",
+                "nutmeg"
+            ],
+            "base": [
+                "sandalwood",
+                "cedar",
+                "labdanum"
+            ]
+        },
+        "category": "woody",
+        "gender": "masculine",
+        "bestseller": true,
+        "stars": 5,
+        "price": 11000
+    },
+    {
+        "id": 3,
+        "name": "Black Orchid",
+        "image": "/orchid.jpg",
+        "brand": "Tom Ford",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "truffle",
+                "ylang-ylang",
+                "blackcurrant"
+            ],
+            "heart": [
+                "black orchid",
+                "floral notes"
+            ],
+            "base": [
+                "vanilla",
+                "balsam",
+                "sandalwood"
+            ]
+        },
+        "category": "oriental",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 4,
+        "price": 16000
+    },
+    {
+        "id": 4,
+        "name": "Amber Eclipse",
+        "image": "/byzantine.webp",
+        "brand": "Solstice Scents",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "bergamot",
+                "amber"
+            ],
+            "heart": [
+                "vanilla",
+                "incense"
+            ],
+            "base": [
+                "musk",
+                "sandalwood"
+            ]
+        },
+        "category": "amber",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 4,
+        "price": 12000
+    },
+    {
+        "id": 5,
+        "name": "Rose Elixir",
+        "image": "/montale.jpg",
+        "brand": "Montale",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "strawberry",
+                "orange"
+            ],
+            "heart": [
+                "rose",
+                "jasmine"
+            ],
+            "base": [
+                "vanilla",
+                "white musk"
+            ]
+        },
+        "category": "floral",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 5,
+        "price": 14000
+    },
+    {
+        "id": 6,
+        "name": "Oud Noir",
+        "image": "/pour.jpg",
+        "brand": "Versace",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "black pepper",
+                "neroli"
+            ],
+            "heart": [
+                "saffron",
+                "cardamom"
+            ],
+            "base": [
+                "oud",
+                "patchouli",
+                "leather"
+            ]
+        },
+        "category": "oriental",
+        "gender": "masculine",
+        "bestseller": true,
+        "stars": 5,
+        "price": 11500
+    },
+    {
+        "id": 7,
+        "name": "Fresh Citrus",
+        "image": "/clean.jpg",
+        "brand": "Clean Reserve",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "lime",
+                "grapefruit"
+            ],
+            "heart": [
+                "green tea",
+                "mint"
+            ],
+            "base": [
+                "cedarwood",
+                "white musk"
+            ]
+        },
+        "category": "fresh",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 3,
+        "price": 6000
+    },
+    {
+        "id": 8,
+        "name": "Velvet Bloom",
+        "image": "/byredo.jpg",
+        "brand": "Byredo",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "peony",
+                "raspberry"
+            ],
+            "heart": [
+                "rose",
+                "freesia"
+            ],
+            "base": [
+                "cashmere wood",
+                "amber"
+            ]
+        },
+        "category": "floral",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 5,
+        "price": 15000
+    },
+    {
+        "id": 9,
+        "name": "Ocean Mist",
+        "image": "/mist.webp",
+        "brand": "Calvin Klein",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "sea breeze",
+                "citrus"
+            ],
+            "heart": [
+                "lavender",
+                "sage"
+            ],
+            "base": [
+                "ambergris",
+                "driftwood"
+            ]
+        },
+        "category": "aquatic",
+        "gender": "masculine",
+        "bestseller": false,
+        "stars": 3,
+        "price": 4500
+    },
+    {
+        "id": 10,
+        "name": "Golden Petal",
+        "image": "/golden.webp",
+        "brand": "Gucci",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "mandarin",
+                "peach"
+            ],
+            "heart": [
+                "rose",
+                "magnolia"
+            ],
+            "base": [
+                "honey",
+                "white musk"
+            ]
+        },
+        "category": "floral",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 4,
+        "price": 10500
+    },
+    {
+        "id": 11,
+        "name": "Midnight Leather",
+        "image": "/midnight.jpg",
+        "brand": "Yves Saint Laurent",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "cardamom",
+                "bergamot"
+            ],
+            "heart": [
+                "leather",
+                "violet"
+            ],
+            "base": [
+                "tonka bean",
+                "vetiver"
+            ]
+        },
+        "category": "leather",
+        "gender": "masculine",
+        "bestseller": true,
+        "stars": 4,
+        "price": 9800
+    },
+    {
+        "id": 12,
+        "name": "Coconut Sky",
+        "image": "/maison.webp",
+        "brand": "Maison Margiela",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "coconut water",
+                "lime"
+            ],
+            "heart": [
+                "tiare flower",
+                "jasmine"
+            ],
+            "base": [
+                "solar notes",
+                "white woods"
+            ]
+        },
+        "category": "tropical",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 3,
+        "price": 8000
+    },
+    {
+        "id": 13,
+        "name": "Spice Trail",
+        "image": "/spice.webp",
+        "brand": "Hermès",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "black pepper",
+                "cinnamon"
+            ],
+            "heart": [
+                "clove",
+                "nutmeg"
+            ],
+            "base": [
+                "cedar",
+                "amber"
+            ]
+        },
+        "category": "spicy",
+        "gender": "masculine",
+        "bestseller": true,
+        "stars": 5,
+        "price": 13000
+    },
+    {
+        "id": 14,
+        "name": "Lunar Bloom",
+        "image": "/malone.jpg",
+        "brand": "Jo Malone",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "bluebell",
+                "lemon"
+            ],
+            "heart": [
+                "iris",
+                "rose"
+            ],
+            "base": [
+                "musk",
+                "vetiver"
+            ]
+        },
+        "category": "powdery",
+        "gender": "feminine",
+        "bestseller": false,
+        "stars": 4,
+        "price": 9500
+    },
+    {
+        "id": 15,
+        "name": "Forest Whisper",
+        "image": "/forest.jpg",
+        "brand": "Diptyque",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "pine",
+                "juniper"
+            ],
+            "heart": [
+                "cedar",
+                "patchouli"
+            ],
+            "base": [
+                "oakmoss",
+                "earthy notes"
+            ]
+        },
+        "category": "woody",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 4,
+        "price": 13500
+    },
+    {
+        "id": 16,
+        "name": "Saffron Veil",
+        "image": "/saxofoni.webp",
+        "brand": "Ex Nihilo",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "saffron",
+                "pink pepper"
+            ],
+            "heart": [
+                "rose",
+                "iris"
+            ],
+            "base": [
+                "amber",
+                "musk"
+            ]
+        },
+        "category": "amber floral",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 4,
+        "price": 14000
+    },
+    {
+        "id": 17,
+        "name": "Cedar Storm",
+        "image": "/daxon.avif",
+        "brand": "Tom Daxon",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "bergamot",
+                "elemi"
+            ],
+            "heart": [
+                "cedar",
+                "vetiver"
+            ],
+            "base": [
+                "leather",
+                "moss"
+            ]
+        },
+        "category": "woody",
+        "gender": "masculine",
+        "bestseller": true,
+        "stars": 4,
+        "price": 8500
+    },
+    {
+        "id": 18,
+        "name": "Peach Mirage",
+        "image": "/pech.avif",
+        "brand": "Juliette Has a Gun",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "peach",
+                "mandarin"
+            ],
+            "heart": [
+                "neroli",
+                "orange blossom"
+            ],
+            "base": [
+                "white musk",
+                "cashmeran"
+            ]
+        },
+        "category": "fruity floral",
+        "gender": "feminine",
+        "bestseller": false,
+        "stars": 3,
+        "price": 9000
+    },
+    {
+        "id": 19,
+        "name": "Smoke & Silk",
+        "image": "/amounage.png",
+        "brand": "Amouage",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "incense",
+                "clove"
+            ],
+            "heart": [
+                "jasmine",
+                "leather"
+            ],
+            "base": [
+                "oud",
+                "tonka bean"
+            ]
+        },
+        "category": "oriental",
+        "gender": "unisex",
+        "bestseller": true,
+        "stars": 5,
+        "price": 22000
+    },
+    {
+        "id": 20,
+        "name": "Lime Serenade",
+        "image": "/atelier.jpg",
+        "brand": "Atelier Cologne",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "lime",
+                "verbena"
+            ],
+            "heart": [
+                "basil",
+                "mint"
+            ],
+            "base": [
+                "vetiver",
+                "ambergris"
+            ]
+        },
+        "category": "citrus",
+        "gender": "masculine",
+        "bestseller": false,
+        "stars": 4,
+        "price": 8500
+    },
+    {
+        "id": 21,
+        "name": "Petal Dust",
+        "image": "/chloe.webp",
+        "brand": "Chloé",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "rose",
+                "lychee"
+            ],
+            "heart": [
+                "peony",
+                "freesia"
+            ],
+            "base": [
+                "cedarwood",
+                "musk"
+            ]
+        },
+        "category": "floral",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 5,
+        "price": 9500
+    },
+    {
+        "id": 22,
+        "name": "Amber Drift",
+        "image": "/labo.jpg",
+        "brand": "Le Labo",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "cinnamon",
+                "bergamot"
+            ],
+            "heart": [
+                "labdanum",
+                "patchouli"
+            ],
+            "base": [
+                "amber",
+                "vanilla"
+            ]
+        },
+        "category": "amber spicy",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 5,
+        "price": 18000
+    },
+    {
+        "id": 23,
+        "name": "Vanilla Horizon",
+        "image": "/kilian.jpg",
+        "brand": "Kilian",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "mandarin",
+                "pink pepper"
+            ],
+            "heart": [
+                "vanilla",
+                "heliotrope"
+            ],
+            "base": [
+                "amber",
+                "sandalwood"
+            ]
+        },
+        "category": "gourmand",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 5,
+        "price": 20000
+    },
+    {
+        "id": 24,
+        "name": "Icy Vetiver",
+        "image": "/icy.jpg",
+        "brand": "Ermenegildo Zegna",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "grapefruit",
+                "mint"
+            ],
+            "heart": [
+                "vetiver",
+                "sage"
+            ],
+            "base": [
+                "musk",
+                "oakmoss"
+            ]
+        },
+        "category": "fresh",
+        "gender": "masculine",
+        "bestseller": false,
+        "stars": 4,
+        "price": 9000
+    },
+    {
+        "id": 25,
+        "name": "Jasmine Rain",
+        "image": "/jasmine.jpg",
+        "brand": "Bvlgari",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "green notes",
+                "lemon"
+            ],
+            "heart": [
+                "jasmine",
+                "lily of the valley"
+            ],
+            "base": [
+                "white musk",
+                "cedar"
+            ]
+        },
+        "category": "floral green",
+        "gender": "feminine",
+        "bestseller": false,
+        "stars": 4,
+        "price": 8500
+    },
+    {
+        "id": 26,
+        "name": "Smoked Fig",
+        "image": "/durga.jpg",
+        "brand": "DS & Durga",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "fig",
+                "black tea"
+            ],
+            "heart": [
+                "iris",
+                "cedar"
+            ],
+            "base": [
+                "smoke",
+                "resins"
+            ]
+        },
+        "category": "earthy",
+        "gender": "unisex",
+        "bestseller": true,
+        "stars": 5,
+        "price": 16000
+    },
+    {
+        "id": 27,
+        "name": "Citrus Ember",
+        "image": "/aesop.jpg",
+        "brand": "Aesop",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "orange",
+                "lemon"
+            ],
+            "heart": [
+                "clove",
+                "lavender"
+            ],
+            "base": [
+                "amber",
+                "wood"
+            ]
+        },
+        "category": "citrus spicy",
+        "gender": "masculine",
+        "bestseller": false,
+        "stars": 3,
+        "price": 7000
+    },
+    {
+        "id": 28,
+        "name": "Powder Rose",
+        "image": "/narciso.jpg",
+        "brand": "Narciso Rodriguez",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "rose",
+                "peach"
+            ],
+            "heart": [
+                "musk",
+                "iris"
+            ],
+            "base": [
+                "tonka bean",
+                "cashmere wood"
+            ]
+        },
+        "category": "powdery floral",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 4,
+        "price": 8500
+    },
+    {
+        "id": 29,
+        "name": "Green Eclipse",
+        "image": "/gracos.jpg",
+        "brand": "Comme des Garçons",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "galbanum",
+                "mint"
+            ],
+            "heart": [
+                "ivy",
+                "vetiver"
+            ],
+            "base": [
+                "oak",
+                "leather"
+            ]
+        },
+        "category": "green woody",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 4,
+        "price": 14000
+    },
+    {
+        "id": 30,
+        "name": "Velvet Citrus",
+        "image": "/evandie.webp",
+        "brand": "Maison Francis Kurkdjian",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "orange blossom",
+                "mandarin"
+            ],
+            "heart": [
+                "neroli",
+                "petitgrain"
+            ],
+            "base": [
+                "white musk",
+                "amber"
+            ]
+        },
+        "category": "citrus floral",
+        "gender": "feminine",
+        "bestseller": false,
+        "stars": 5,
+        "price": 18000
+    },
+    {
+        "id": 31,
+        "name": "Iron Woods",
+        "image": "/zara.jpg",
+        "brand": "Zara",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "black pepper",
+                "grapefruit"
+            ],
+            "heart": [
+                "cedar",
+                "patchouli"
+            ],
+            "base": [
+                "amber",
+                "leather"
+            ]
+        },
+        "category": "woody spicy",
+        "gender": "masculine",
+        "bestseller": true,
+        "stars": 3,
+        "price": 2500
+    },
+    {
+        "id": 32,
+        "name": "Moonlight Iris",
+        "image": "/prada.jpg",
+        "brand": "Prada",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "neroli",
+                "galbanum"
+            ],
+            "heart": [
+                "iris",
+                "violet"
+            ],
+            "base": [
+                "benzoin",
+                "tonka bean"
+            ]
+        },
+        "category": "powdery floral",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 4,
+        "price": 12000
+    },
+    {
+        "id": 33,
+        "name": "Amber Smoke",
+        "image": "/mancera.jpg",
+        "brand": "Mancera",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "incense",
+                "bergamot"
+            ],
+            "heart": [
+                "amber",
+                "leather"
+            ],
+            "base": [
+                "vanilla",
+                "musk"
+            ]
+        },
+        "category": "amber smoky",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 4,
+        "price": 12000
+    },
+    {
+        "id": 34,
+        "name": "Fresh Basilica",
+        "image": "/acqua.jpg",
+        "brand": "Acqua di Parma",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "basil",
+                "lime"
+            ],
+            "heart": [
+                "green tea",
+                "lavender"
+            ],
+            "base": [
+                "vetiver",
+                "white woods"
+            ]
+        },
+        "category": "herbal fresh",
+        "gender": "masculine",
+        "bestseller": false,
+        "stars": 4,
+        "price": 11000
+    },
+    {
+        "id": 35,
+        "name": "Rosewood Whisper",
+        "image": "/pen.jpg",
+        "brand": "Penhaligon's",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "rose",
+                "blackcurrant"
+            ],
+            "heart": [
+                "sandalwood",
+                "iris"
+            ],
+            "base": [
+                "amber",
+                "musk"
+            ]
+        },
+        "category": "floral woody",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 5,
+        "price": 14000
+    },
+    {
+        "id": 36,
+        "name": "Cobalt Drift",
+        "image": "/boss.webp",
+        "brand": "Hugo Boss",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "mint",
+                "lemon"
+            ],
+            "heart": [
+                "lavender",
+                "pine"
+            ],
+            "base": [
+                "cedarwood",
+                "tonka bean"
+            ]
+        },
+        "category": "fresh aromatic",
+        "gender": "masculine",
+        "bestseller": false,
+        "stars": 3,
+        "price": 6500
+    },
+    {
+        "id": 37,
+        "name": "Crimson Bloom",
+        "image": "/floris.webp",
+        "brand": "Floris London",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "red berries",
+                "bergamot"
+            ],
+            "heart": [
+                "rose",
+                "geranium"
+            ],
+            "base": [
+                "patchouli",
+                "amber"
+            ]
+        },
+        "category": "floral chypre",
+        "gender": "feminine",
+        "bestseller": false,
+        "stars": 4,
+        "price": 9000
+    },
+    {
+        "id": 38,
+        "name": "Silver Ash",
+        "image": "/silver.jpg",
+        "brand": "Bentley",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "lavender",
+                "pine"
+            ],
+            "heart": [
+                "leather",
+                "orris root"
+            ],
+            "base": [
+                "cedarwood",
+                "tonka bean"
+            ]
+        },
+        "category": "woody aromatic",
+        "gender": "masculine",
+        "bestseller": true,
+        "stars": 3,
+        "price": 7000
+    },
+    {
+        "id": 39,
+        "name": "Tangerine Dream",
+        "image": "/guerlain.jpg",
+        "brand": "Guerlain",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "tangerine",
+                "grapefruit"
+            ],
+            "heart": [
+                "orange blossom",
+                "ylang-ylang"
+            ],
+            "base": [
+                "white musk",
+                "vanilla"
+            ]
+        },
+        "category": "citrus floral",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 5,
+        "price": 13000
+    },
+    {
+        "id": 40,
+        "name": "Twilight Oud",
+        "image": "/twilight.jpg",
+        "brand": "Maison Alhambra",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "saffron",
+                "rose"
+            ],
+            "heart": [
+                "oud",
+                "patchouli"
+            ],
+            "base": [
+                "amber",
+                "musk"
+            ]
+        },
+        "category": "oriental woody",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 4,
+        "price": 17000
+    },
+    {
+        "id": 41,
+        "name": "Crisp Fern",
+        "image": "/crisp.jpg",
+        "brand": "L'Artisan Parfumeur",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "green leaves",
+                "lemon"
+            ],
+            "heart": [
+                "fern",
+                "lavender"
+            ],
+            "base": [
+                "oakmoss",
+                "vetiver"
+            ]
+        },
+        "category": "green aromatic",
+        "gender": "masculine",
+        "bestseller": false,
+        "stars": 3,
+        "price": 9500
+    },
+    {
+        "id": 42,
+        "name": "Blush Nectar",
+        "image": "/nectar.jpg",
+        "brand": "Victoria's Secret",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "peach",
+                "nectarine"
+            ],
+            "heart": [
+                "magnolia",
+                "rose"
+            ],
+            "base": [
+                "vanilla",
+                "cashmere wood"
+            ]
+        },
+        "category": "fruity floral",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 3,
+        "price": 3500
+    },
+    {
+        "id": 43,
+        "name": "Mineral Drift",
+        "image": "/escentric.jpg",
+        "brand": "Escentric Molecules",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "ozone",
+                "salt"
+            ],
+            "heart": [
+                "mineral accord",
+                "iris"
+            ],
+            "base": [
+                "ambroxan",
+                "musk"
+            ]
+        },
+        "category": "aquatic mineral",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 4,
+        "price": 12000
+    },
+    {
+        "id": 44,
+        "name": "Cypress Fade",
+        "image": "/memo.jpg",
+        "brand": "Memo Paris",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "cypress",
+                "grapefruit"
+            ],
+            "heart": [
+                "juniper",
+                "clary sage"
+            ],
+            "base": [
+                "amber",
+                "leather"
+            ]
+        },
+        "category": "woody aromatic",
+        "gender": "masculine",
+        "bestseller": false,
+        "stars": 4,
+        "price": 16000
+    },
+    {
+        "id": 45,
+        "name": "Golden Fig",
+        "image": "/fig.jpg",
+        "brand": "Diptyque",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "fig leaf",
+                "bergamot"
+            ],
+            "heart": [
+                "violet",
+                "green tea"
+            ],
+            "base": [
+                "cedarwood",
+                "musk"
+            ]
+        },
+        "category": "green fruity",
+        "gender": "unisex",
+        "bestseller": true,
+        "stars": 4,
+        "price": 13500
+    },
+    {
+        "id": 46,
+        "name": "Rose Ember",
+        "image": "/ambre.jpg",
+        "brand": "Maison Crivelli",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "pink pepper",
+                "rose"
+            ],
+            "heart": [
+                "incense",
+                "patchouli"
+            ],
+            "base": [
+                "amber",
+                "vanilla"
+            ]
+        },
+        "category": "floral spicy",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 5,
+        "price": 15000
+    },
+    {
+        "id": 47,
+        "name": "Cobalt Rain",
+        "image": "/ferrari.jpg",
+        "brand": "Ferrari",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "mint",
+                "lemon zest"
+            ],
+            "heart": [
+                "lavender",
+                "aquatic accord"
+            ],
+            "base": [
+                "white woods",
+                "tonka bean"
+            ]
+        },
+        "category": "fresh aquatic",
+        "gender": "masculine",
+        "bestseller": false,
+        "stars": 3,
+        "price": 4000
+    },
+    {
+        "id": 48,
+        "name": "Petal Smoke",
+        "image": "/etat.jpg",
+        "brand": "Etat Libre d’Orange",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "rose",
+                "blackcurrant"
+            ],
+            "heart": [
+                "leather",
+                "jasmine"
+            ],
+            "base": [
+                "smoke",
+                "labdanum"
+            ]
+        },
+        "category": "floral smoky",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 4,
+        "price": 14000
+    },
+    {
+        "id": 49,
+        "name": "Citrus Bloom",
+        "image": "/citrus.jpg",
+        "brand": "The Different Company",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "orange",
+                "lime"
+            ],
+            "heart": [
+                "neroli",
+                "freesia"
+            ],
+            "base": [
+                "white musk",
+                "cedar"
+            ]
+        },
+        "category": "citrus floral",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 4,
+        "price": 11000
+    },
+    {
+        "id": 50,
+        "name": "Amber Frost",
+        "image": "/mont.jpg",
+        "brand": "Montblanc",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "cardamom",
+                "apple"
+            ],
+            "heart": [
+                "lavender",
+                "amber"
+            ],
+            "base": [
+                "musk",
+                "tonka bean"
+            ]
+        },
+        "category": "amber aromatic",
+        "gender": "masculine",
+        "bestseller": false,
+        "stars": 3,
+        "price": 9000
+    },
+    {
+        "id": 51,
+        "name": "Sandal Dusk",
+        "image": "/santal.webp",
+        "brand": "Ajmal",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "cardamom",
+                "cinnamon"
+            ],
+            "heart": [
+                "sandalwood",
+                "rose"
+            ],
+            "base": [
+                "amber",
+                "musk"
+            ]
+        },
+        "category": "woody oriental",
+        "gender": "masculine",
+        "bestseller": false,
+        "stars": 3,
+        "price": 6000
+    },
+    {
+        "id": 52,
+        "name": "Pearl Bloom",
+        "image": "/oscar.webp",
+        "brand": "Oscar de la Renta",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "pear",
+                "bergamot"
+            ],
+            "heart": [
+                "peony",
+                "gardenia"
+            ],
+            "base": [
+                "white musk",
+                "cashmere wood"
+            ]
+        },
+        "category": "fruity floral",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 4,
+        "price": 6500
+    },
+    {
+        "id": 53,
+        "name": "Cinder Spice",
+        "image": "/extasy.jpg",
+        "brand": "Maison Tahité",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "clove",
+                "nutmeg"
+            ],
+            "heart": [
+                "vanilla",
+                "benzoin"
+            ],
+            "base": [
+                "tonka bean",
+                "smoke"
+            ]
+        },
+        "category": "spicy gourmand",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 3,
+        "price": 7000
+    },
+    {
+        "id": 54,
+        "name": "Azure Drift",
+        "image": "/spirit.webp",
+        "brand": "Salvatore Ferragamo",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "lemon",
+                "marine accord"
+            ],
+            "heart": [
+                "lavender",
+                "rosemary"
+            ],
+            "base": [
+                "cedar",
+                "ambergris"
+            ]
+        },
+        "category": "aquatic aromatic",
+        "gender": "masculine",
+        "bestseller": true,
+        "stars": 4,
+        "price": 7500
+    },
+    {
+        "id": 55,
+        "name": "Orchid Haze",
+        "image": "/haze.webp",
+        "brand": "Carolina Herrera",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "mandarin",
+                "pink pepper"
+            ],
+            "heart": [
+                "orchid",
+                "jasmine"
+            ],
+            "base": [
+                "vanilla",
+                "patchouli"
+            ]
+        },
+        "category": "floral oriental",
+        "gender": "feminine",
+        "bestseller": false,
+        "stars": 4,
+        "price": 8000
+    },
+    {
+        "id": 56,
+        "name": "Citrus Alloy",
+        "image": "/rabane.jpg",
+        "brand": "Paco Rabanne",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "lime",
+                "metallic accord"
+            ],
+            "heart": [
+                "mint",
+                "lavender"
+            ],
+            "base": [
+                "vetiver",
+                "tonka bean"
+            ]
+        },
+        "category": "citrus aromatic",
+        "gender": "masculine",
+        "bestseller": true,
+        "stars": 3,
+        "price": 6000
+    },
+    {
+        "id": 57,
+        "name": "Amber Silk",
+        "image": "/imperial.jpg",
+        "brand": "Van Cleef & Arpels",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "bergamot",
+                "saffron"
+            ],
+            "heart": [
+                "amber",
+                "iris"
+            ],
+            "base": [
+                "musk",
+                "vanilla"
+            ]
+        },
+        "category": "amber floral",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 5,
+        "price": 20000
+    },
+    {
+        "id": 58,
+        "name": "Citrus Velvet",
+        "image": "/batikanga.jpg",
+        "brand": "Maison Matine",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "grapefruit",
+                "lemon zest"
+            ],
+            "heart": [
+                "orange blossom",
+                "green tea"
+            ],
+            "base": [
+                "white musk",
+                "cedar"
+            ]
+        },
+        "category": "citrus fresh",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 3,
+        "price": 6000
+    },
+    {
+        "id": 59,
+        "name": "Spiced Bloom",
+        "image": "/blossom.jpg",
+        "brand": "Histoires de Parfums",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "pink pepper",
+                "clove"
+            ],
+            "heart": [
+                "rose",
+                "patchouli"
+            ],
+            "base": [
+                "amber",
+                "vanilla"
+            ]
+        },
+        "category": "floral spicy",
+        "gender": "feminine",
+        "bestseller": true,
+        "stars": 5,
+        "price": 16000
+    },
+    {
+        "id": 60,
+        "name": "Moss Eclipse",
+        "image": "/jayne.jpg",
+        "brand": "Ormonde Jayne",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "lime",
+                "galbanum"
+            ],
+            "heart": [
+                "violet leaf",
+                "cedar"
+            ],
+            "base": [
+                "oakmoss",
+                "vetiver"
+            ]
+        },
+        "category": "green woody",
+        "gender": "masculine",
+        "bestseller": false,
+        "stars": 5,
+        "price": 18000
+    },
+    {
+        "id": 61,
+        "name": "Vanilla Drift",
+        "image": "/galivant.jpg",
+        "brand": "Gallivant",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "mandarin",
+                "cardamom"
+            ],
+            "heart": [
+                "vanilla",
+                "iris"
+            ],
+            "base": [
+                "amber",
+                "tonka bean"
+            ]
+        },
+        "category": "gourmand powdery",
+        "gender": "unisex",
+        "bestseller": true,
+        "stars": 4,
+        "price": 8000
+    },
+    {
+        "id": 62,
+        "name": "Rose Alloy",
+        "image": "/olf.jpg",
+        "brand": "Laboratorio Olfattivo",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "rose",
+                "metallic accord"
+            ],
+            "heart": [
+                "geranium",
+                "leather"
+            ],
+            "base": [
+                "musk",
+                "amber"
+            ]
+        },
+        "category": "floral metallic",
+        "gender": "feminine",
+        "bestseller": false,
+        "stars": 4,
+        "price": 14000
+    },
+    {
+        "id": 63,
+        "name": "Cedar Ice",
+        "image": "/garcons.jpg",
+        "brand": "Comme des Garçons",
+        "type": "EDT",
+        "notes": {
+            "top": [
+                "mint",
+                "aldehydes"
+            ],
+            "heart": [
+                "cedar",
+                "iris"
+            ],
+            "base": [
+                "vetiver",
+                "white musk"
+            ]
+        },
+        "category": "woody fresh",
+        "gender": "masculine",
+        "bestseller": true,
+        "stars": 4,
+        "price": 13000
+    },
+    {
+        "id": 64,
+        "name": "Golden Neroli",
+        "image": "/green.jpg",
+        "brand": "Hiram Green",
+        "type": "EDP",
+        "notes": {
+            "top": [
+                "neroli",
+                "mandarin"
+            ],
+            "heart": [
+                "orange blossom",
+                "ylang-ylang"
+            ],
+            "base": [
+                "vanilla",
+                "benzoin"
+            ]
+        },
+        "category": "citrus floral",
+        "gender": "unisex",
+        "bestseller": false,
+        "stars": 4,
+        "price": 15000
+    }
+]
