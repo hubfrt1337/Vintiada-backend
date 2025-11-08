@@ -9,23 +9,29 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const app = express();
 
-// skonfiguruj origin przez zmienną środowiskową (na Render ustaw FRONTEND_URL)
-const FRONTEND = process.env.FRONTEND_URL || 'https://vintiada-perfume-shop.onrender.com/';
+// Error handling middleware
+app.use((err, req, res, next) => {
+  if (err.name === 'UnauthorizedError') {
+    res.status(401).json({ error: 'Invalid token' });
+  } else if (err.name === 'ValidationError') {
+    res.status(400).json({ error: err.message });
+  } else {
+    console.error(err);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
 
+// Konfiguracja CORS dla produkcji i developmentu
 const corsOptions = {
-  origin: (origin, callback) => {
-    // allow tools (no origin) or allowed frontends
-    if (!origin) return callback(null, true);
-    const allowed = [FRONTEND, 'http://localhost:5173'];
-    if (allowed.includes(origin)) return callback(null, true);
-    callback(new Error('Not allowed by CORS'));
-  },
-  methods: ['GET','POST','PUT','DELETE','OPTIONS'],
-  allowedHeaders: ['Content-Type','Authorization'],
-  credentials: true
+  origin: true, // Pozwala na requesty z każdego origin
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin'],
+  credentials: true,
+  maxAge: 86400
 };
 
-app.use(cors(corsOptions));      // jednorazowe użycie
+// Apply CORS configuration
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.static('public'));
 
