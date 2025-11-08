@@ -16,7 +16,7 @@ const corsOptions = {
   origin: (origin, callback) => {
     // allow tools (no origin) or allowed frontends
     if (!origin) return callback(null, true);
-    const allowed = [FRONTEND, 'http://localhost:3000'];
+    const allowed = [FRONTEND, 'http://localhost:5173'];
     if (allowed.includes(origin)) return callback(null, true);
     callback(new Error('Not allowed by CORS'));
   },
@@ -118,7 +118,8 @@ app.use(express.static(path.join(__dirname, 'dist')));
 
 
 
-app.get(/.*/, (req, res) => {
+/*
+app.get(/./, (req, res) => {
   const indexPath = path.join(__dirname, 'dist', 'index.html');
   res.sendFile(indexPath, (err) => {
     if (err) {
@@ -129,6 +130,9 @@ app.get(/.*/, (req, res) => {
       });
     }
   });
-});
+}); */
+
+
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => console.log(`API server listening on http://localhost:${PORT}`));
